@@ -33,7 +33,7 @@ and the mean-square error (MSE) is graphed versus Epoch.  As can be seen in the 
 but it eventually settles down after about 150 epochs. An epoch is the forward and backward propagation of all the 64 training samples.
 </p>
 <p>
-When the <i>Test</i> link is clicked, 64 examples are supplied to the MLP.  It classifies the alpha-numerica characters.
+When the <i>Test</i> link is clicked, 64 examples are supplied to the MLP.  It classifies the alpha-numeric characters.
 The test results are tabulated and the actual characters are graphed from the encoding that was supplied to the MLP.
 It takes some trial-and-error with the MLP Training Parameters to reduce the MSE to zero.  It is possible to a specify a 
 more complex MLP than necessary and not get good results.  For example, using more hidden layers, a greater layer depth,
